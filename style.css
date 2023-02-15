@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Oswald:wght@200;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=PT+Sans:wght@400;700&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background-color: #f3f3f3;
+    margin-top: 2px;
+}
+nav.container-fluid.nav_position{
+    height: 45px;
+    background-color: #f3f3f3;
+}
+.logo_icon{
+    font-size: 45px;
+    line-height: 0;
+}
+.logo_title{
+    position: relative;
+    bottom: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav_btn{
+    border-radius: 0%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+ul .nav-item .nav_text{
+    color: #fd5901;
+}
+.nav_subtitle{
+    padding-top: 5px;
+}
+header.container-fluid{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+@media (min-width: 992px) {
+    .main_img{
+        height: 400px;
+    }
+}
+@media (max-width: 991px) {
+    .main_img {
+        height: 200px;
+    }
+}
+.title_box{
+    color: rgb(0, 0, 0);
+}
+.mission_text{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn_custom{
+    width: 120px;
+    height: 120px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+#btn_custom1{
+    background-color: rgb(221, 201, 180);
+}
+#btn_custom1:hover{
+    border: 1px solid black;
+    background-color: #f3f3f3;
+}
+#btn_custom2{
+    background-color: rgb(188, 172, 155);
+}
+#btn_custom2:hover{
+    border: 1px solid black;
+    background-color: #f3f3f3;
+}
+#btn_custom3:hover{
+    border: 1px solid black;
+    background-color: #f3f3f3;
+}
+#btn_custom3{
+    background-color:rgb(122, 108, 93);
+}
+.fs_smaller{
+    font-size: 0.7rem
+}
