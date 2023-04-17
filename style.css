@@ -90,3 +90,12 @@ header.container-fluid{
 .fs_smaller{
     font-size: 0.7rem
 }
+.violet_bg{
+    background-color: #771bb4;
+}
+.orange_bg{
+    background-color: #fd5901;
+}
+.yellow_bg{
+    background-color: rgb(190, 178, 68);
+}
